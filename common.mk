@@ -101,6 +101,18 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # (property override must come before included property)
 PRODUCT_PROPERTY_OVERRIDES += \
 	dalvik.vm.heapgrowthlimit=56m
+	
+# MicroG bundle + Custom
+PRODUCT_PACKAGES += \
+    GmsCore \
+    GsfProxy \
+    FakeStore \
+    MozillaNlpBackend \
+    FDroid \
+    FDroidPrivilegedExtension \
+    AuroraStore \
+    AuroraServices \
+    Conversations
 
 $(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
 

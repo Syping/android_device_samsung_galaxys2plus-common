@@ -2,14 +2,25 @@
 
 <manifest>
 	# Galaxy S II Plus dependencies
-	<project name="andixlm/android_build-tools_galaxys2plus-common" path="build-tools" remote="github" revision="cm-12.1" />
-	<project name="andixlm/android_device_samsung_galaxys2plus-common" path="device/samsung/galaxys2plus-common" remote="github" revision="cm-12.1" />
+	<project name="Syping/android_build-tools_galaxys2plus-common" path="build-tools" remote="github" revision="cm-12.1" />
+	<project name="Syping/android_device_samsung_galaxys2plus-common" path="device/samsung/galaxys2plus-common" remote="github" revision="cm-12.1" />
 	<project name="andixlm/android_device_samsung_i9105" path="device/samsung/i9105" remote="github" revision="cm-12.1" />
 	<project name="andixlm/android_device_samsung_i9105p" path="device/samsung/i9105p" remote="github" revision="cm-12.1" />
-	<project name="andixlm/android_kernel_samsung_galaxys2plus-common" path="kernel/samsung/galaxys2plus-common" remote="github" revision="lollipop" />
+	<project name="Syping/android_kernel_samsung_galaxys2plus-common" path="kernel/samsung/galaxys2plus-common" remote="github" revision="lollipop" />
 	<project name="andixlm/proprietary_vendor_samsung_galaxys2plus-common" path="vendor/samsung/galaxys2plus-common" remote="github" revision="master" />
 	
 	# CyanogenMod dependencies
 	<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.1" />
 	<project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.1" />
+	
+	# MicroG bundle dependencies
+	<project name="microG-s2plus-bundle/GmsCore" path="packages/apps/GmsCore" remote="github" revision="master" />
+	<project name="microG-s2plus-bundle/GsfProxy" path="packages/apps/GsfProxy" remote="github" revision="master" />
+	<project name="microG-s2plus-bundle/FakeStore" path="packages/apps/FakeStore" remote="github" revision="master" />
+	<project name="microG-s2plus-bundle/MozillaNlpBackend" path="packages/apps/MozillaNlpBackend" remote="github" revision="master" />
+	<project name="microG-s2plus-bundle/FDroid" path="packages/apps/FDroid" remote="github" revision="master" />
+	<project name="microG-s2plus-bundle/FDroidPrivilegedExtension" path="packages/apps/FDroidPrivilegedExtension" remote="github" revision="master" />
+	<project name="microG-s2plus-bundle/AuroraStore" path="packages/apps/AuroraStore" remote="github" revision="master" />
+	<project name="microG-s2plus-bundle/AuroraServices" path="packages/apps/AuroraServices" remote="github" revision="master" />
+	<project name="microG-s2plus-bundle/Conversations" path="packages/apps/Conversations" remote="github" revision="master" />
 </manifest>
