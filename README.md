@@ -4,8 +4,8 @@ Common device tree for Samsung Galaxy S II Plus (GT-I9105 and GT-I9105P)
 Note:
 -------------
 This device requires additional patches to the sources of ROM.
-You can find them here: "https://github.com/Syping/android_build-tools_galaxys2plus-common/tree/cm-12.1/patches".
-If you follow "How to build" instruction the repo "android_build-tools_galaxys2plus-common" will be downloaded into "build-tools" folder in the root of ROM's directory.
+You can find them here: "https://github.com/Syping/android_build-tools/tree/cm-12.1/patches".
+If you follow "How to build" instruction the repo "android_build-tools" will be downloaded into "build-tools" folder in the root of ROM's directory.
 
 How to build:
 -------------
